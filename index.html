@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moncif Ghembaza — AI Engineer</title>
+  <meta name="description" content="AI Engineering Student specializing in LLMs, RAG pipelines, and machine learning systems." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="noise-overlay"></div>
+  <canvas id="neural-canvas"></canvas>
+
+  <!-- NAVIGATION -->
+  <header id="header">
+    <nav class="nav-inner">
+      <a href="#" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>MG<span class="logo-bracket">/&gt;</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link"><span class="link-num">01.</span> About</a></li>
+        <li><a href="#skills" class="nav-link"><span class="link-num">02.</span> Skills</a></li>
+        <li><a href="#projects" class="nav-link"><span class="link-num">03.</span> Projects</a></li>
+        <li><a href="#contact" class="nav-link"><span class="link-num">04.</span> Contact</a></li>
+      </ul>
+      <a href="mailto:ghemabazamoncif@gmail.com" class="nav-cta">Hire Me</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <ul>
+      <li><a href="#about" class="mobile-link"><span>01.</span> About</a></li>
+      <li><a href="#skills" class="mobile-link"><span>02.</span> Skills</a></li>
+      <li><a href="#projects" class="mobile-link"><span>03.</span> Projects</a></li>
+      <li><a href="#contact" class="mobile-link"><span>04.</span> Contact</a></li>
+    </ul>
+  </div>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="hero-inner">
+        <div class="hero-left">
+          <div class="hero-badge reveal-up">
+            <span class="status-dot"></span>
+            <span>Open to opportunities</span>
+          </div>
+          <h1 class="hero-title reveal-up">
+            <span class="title-greeting">Hi, I'm</span>
+            <span class="title-name">Moncif<br/>Ghembaza.</span>
+          </h1>
+          <p class="hero-sub reveal-up">
+            <span class="typewriter"></span>
+          </p>
+          <p class="hero-desc reveal-up">
+            AI Engineering student at <strong>ENSIA</strong> building intelligent systems —
+            from fine-tuned LLMs and RAG pipelines to optimization algorithms and multimodal AI.
+          </p>
+          <div class="hero-actions reveal-up">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+          </div>
+          <div class="hero-stats reveal-up">
+            <div class="stat-item">
+              <span class="stat-num" data-target="6">0</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-num" data-target="4">0</span>
+              <span class="stat-label">Certifications</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-num">2nd</span>
+              <span class="stat-label">Year AI Eng.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right reveal-right">
+          <div class="photo-wrapper">
+            <div class="photo-ring-outer"></div>
+            <div class="photo-ring-inner"></div>
+            <div class="photo-frame">
+              <img src="moncif.jpg" alt="Moncif Ghembaza" />
+            </div>
+            <div class="photo-orb orb-1"></div>
+            <div class="photo-orb orb-2"></div>
+            <div class="photo-orb orb-3"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-scroll-hint">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <div class="container">
+        <div class="section-label reveal-up">
+          <span class="section-counter">01 —</span>
+          <h2 class="section-title">About <span class="accent">Me</span></h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text reveal-up">
+            <p>
+              I'm a second-year AI Engineering student at <strong>ENSIA</strong>, Algeria's National Higher
+              School of Artificial Intelligence. My passion lies at the intersection of <strong>large language models</strong>,
+              system design, and applied ML.
+            </p>
+            <p>
+              I build production-grade AI systems — from fine-tuned chatbots that mimic conversational styles
+              in <em>Algerian Darija</em>, to multimodal RAG pipelines and container optimization algorithms.
+              I care deeply about the full stack: data pipelines, model training, and deployment.
+            </p>
+            <p>
+              Beyond AI, I explore cybersecurity, contribute to university events, and am always
+              looking for challenging problems at the edge of what's possible.
+            </p>
+            <div class="about-tags">
+              <span class="tag">LLMOps</span>
+              <span class="tag">RAG Systems</span>
+              <span class="tag">ML Engineering</span>
+              <span class="tag">AI Security</span>
+              <span class="tag">Vector DBs</span>
+            </div>
+          </div>
+          <div class="about-cards reveal-up">
+            <div class="info-card glass-card">
+              <div class="info-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+              <div class="info-body">
+                <span class="info-label">Education</span>
+                <span class="info-value">ENSIA — AI Engineering</span>
+                <span class="info-sub">2024 – 2029</span>
+              </div>
+            </div>
+            <div class="info-card glass-card">
+              <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="info-body">
+                <span class="info-label">Location</span>
+                <span class="info-value">Sidi Bel Abbes</span>
+                <span class="info-sub">Algeria</span>
+              </div>
+            </div>
+            <div class="info-card glass-card">
+              <div class="info-icon"><i class="fa-solid fa-star"></i></div>
+              <div class="info-body">
+                <span class="info-label">Baccalaureate</span>
+                <span class="info-value">Mention Excellent</span>
+                <span class="info-sub">Class of 2024</span>
+              </div>
+            </div>
+            <div class="info-card glass-card">
+              <div class="info-icon"><i class="fa-solid fa-language"></i></div>
+              <div class="info-body">
+                <span class="info-label">Languages</span>
+                <span class="info-value">Arabic · English · French</span>
+                <span class="info-sub">Native · Fluent · Intermediate</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section skills">
+      <div class="container">
+        <div class="section-label reveal-up">
+          <span class="section-counter">02 —</span>
+          <h2 class="section-title">Technical <span class="accent">Stack</span></h2>
+        </div>
+        <div class="bento-grid reveal-up">
+
+          <div class="bento-card feature glass-card" data-domain="ai">
+            <div class="bento-header">
+              <i class="fa-solid fa-brain bento-icon"></i>
+              <span class="bento-tag">Core Expertise</span>
+            </div>
+            <h3>AI / Machine Learning</h3>
+            <div class="skill-pills">
+              <span class="pill pill-primary">TensorFlow</span>
+              <span class="pill pill-primary">Scikit-learn</span>
+              <span class="pill pill-primary">LLMOps</span>
+              <span class="pill pill-primary">LLM App Design</span>
+              <span class="pill pill-secondary">Pandas</span>
+              <span class="pill pill-secondary">Matplotlib</span>
+              <span class="pill pill-secondary">Fine-tuning</span>
+              <span class="pill pill-secondary">RAG Pipelines</span>
+            </div>
+          </div>
+
+          <div class="bento-card medium glass-card" data-domain="code">
+            <div class="bento-header">
+              <i class="fa-solid fa-code bento-icon"></i>
+              <span class="bento-tag">Languages</span>
+            </div>
+            <h3>Code</h3>
+            <div class="lang-list">
+              <div class="lang-item">
+                <span class="lang-name">Python</span>
+                <div class="lang-bar"><div class="lang-fill" style="--fill: 95%"></div></div>
+              </div>
+              <div class="lang-item">
+                <span class="lang-name">C++</span>
+                <div class="lang-bar"><div class="lang-fill" style="--fill: 75%"></div></div>
+              </div>
+              <div class="lang-item">
+                <span class="lang-name">JavaScript</span>
+                <div class="lang-bar"><div class="lang-fill" style="--fill: 65%"></div></div>
+              </div>
+              <div class="lang-item">
+                <span class="lang-name">PHP</span>
+                <div class="lang-bar"><div class="lang-fill" style="--fill: 50%"></div></div>
+              </div>
+              <div class="lang-item">
+                <span class="lang-name">SQL</span>
+                <div class="lang-bar"><div class="lang-fill" style="--fill: 55%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bento-card medium glass-card" data-domain="devops">
+            <div class="bento-header">
+              <i class="fa-brands fa-docker bento-icon"></i>
+              <span class="bento-tag">DevOps & Tools</span>
+            </div>
+            <h3>Infrastructure</h3>
+            <div class="skill-pills">
+              <span class="pill pill-teal">Docker</span>
+              <span class="pill pill-teal">Git / GitHub</span>
+              <span class="pill pill-teal">Linux</span>
+              <span class="pill pill-teal">FastAPI</span>
+              <span class="pill pill-teal">ZenML</span>
+            </div>
+          </div>
+
+          <div class="bento-card small glass-card" data-domain="db">
+            <div class="bento-header">
+              <i class="fa-solid fa-database bento-icon"></i>
+              <span class="bento-tag">Databases</span>
+            </div>
+            <h3>Data Stores</h3>
+            <ul class="db-list">
+              <li><span class="db-dot violet"></span>MongoDB</li>
+              <li><span class="db-dot cyan"></span>Qdrant</li>
+              <li><span class="db-dot cyan"></span>ChromaDB</li>
+              <li><span class="db-dot violet"></span>MySQL</li>
+            </ul>
+          </div>
+
+          <div class="bento-card small glass-card" data-domain="security">
+            <div class="bento-header">
+              <i class="fa-solid fa-shield-halved bento-icon"></i>
+              <span class="bento-tag">Security</span>
+            </div>
+            <h3>Cybersecurity</h3>
+            <ul class="db-list">
+              <li><span class="db-dot amber"></span>TryHackMe</li>
+              <li><span class="db-dot amber"></span>AI Security</li>
+              <li><span class="db-dot amber"></span>Model Analysis</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <div class="section-label reveal-up">
+          <span class="section-counter">03 —</span>
+          <h2 class="section-title">Selected <span class="accent">Work</span></h2>
+        </div>
+        <div class="projects-grid">
+
+          <article class="project-card glass-card reveal-up" data-domain="ai">
+            <div class="project-num">01</div>
+            <div class="project-content">
+              <div class="project-header">
+                <div>
+                  <div class="project-domain">LLMOps · NLP</div>
+                  <h3 class="project-title">LLM Twin — Algerian Darija Chatbot</h3>
+                </div>
+              </div>
+              <p class="project-desc">
+                Building an LLM twin that mimics conversational style from Instagram messages in
+                Algerian Darija (Arabizi), with fine-tuned encoder/decoder models and a full LLMOps
+                pipeline powered by ZenML, MongoDB, and Qdrant.
+              </p>
+              <div class="project-tech">
+                <span>Python</span><span>ZenML</span><span>MongoDB</span><span>Docker</span><span>Qdrant</span>
+              </div>
+              <div class="project-status status-progress">In Progress</div>
+            </div>
+          </article>
+
+          <article class="project-card glass-card reveal-up" data-domain="ai">
+            <div class="project-num">02</div>
+            <div class="project-content">
+              <div class="project-header">
+                <div>
+                  <div class="project-domain">RAG · Multimodal</div>
+                  <h3 class="project-title">ENSIA Multimodal RAG Pipeline</h3>
+                </div>
+              </div>
+              <p class="project-desc">
+                Hackathon project — a RAG pipeline handling both images and text to answer questions
+                about ENSIA using crawled club events, admin posts, and campus images.
+              </p>
+              <div class="project-tech">
+                <span>Python</span><span>RAG</span><span>LLM</span><span>Computer Vision</span>
+              </div>
+              <div class="project-status status-done">Completed</div>
+            </div>
+          </article>
+
+          <article class="project-card glass-card reveal-up" data-domain="optimization">
+            <div class="project-num">03</div>
+            <div class="project-content">
+              <div class="project-header">
+                <div>
+                  <div class="project-domain">Optimization · AI Search</div>
+                  <h3 class="project-title">Container Box Optimization Software</h3>
+                </div>
+              </div>
+              <p class="project-desc">
+                Applying AI search optimization algorithms to help delivery companies arrange boxes
+                efficiently in shipping containers, minimizing wasted space.
+              </p>
+              <div class="project-tech">
+                <span>Python</span><span>FastAPI</span><span>Search Algorithms</span>
+              </div>
+              <div class="project-status status-progress">In Progress</div>
+            </div>
+          </article>
+
+          <article class="project-card glass-card reveal-up" data-domain="web">
+            <div class="project-num">04</div>
+            <div class="project-content">
+              <div class="project-header">
+                <div>
+                  <div class="project-domain">WordPress · AI · SEO</div>
+                  <h3 class="project-title">AI-Powered SEO Image Plugin</h3>
+                </div>
+              </div>
+              <p class="project-desc">
+                WordPress plugin using AI to extract context from images and pages,
+                automatically applying metadata SEO techniques for improved search rankings.
+              </p>
+              <div class="project-tech">
+                <span>PHP</span><span>WordPress</span><span>AI</span><span>SEO</span>
+              </div>
+              <div class="project-status status-done">Completed</div>
+            </div>
+          </article>
+
+          <article class="project-card glass-card reveal-up" data-domain="web">
+            <div class="project-num">06</div>
+            <div class="project-content">
+              <div class="project-header">
+                <div>
+                  <div class="project-domain">Full-Stack · Web</div>
+                  <h3 class="project-title">SkillExchange Platform</h3>
+                </div>
+              </div>
+              <p class="project-desc">
+                A web platform enabling users to exchange skills through profiles, skill listings,
+                and an intelligent matching system connecting complementary learners.
+              </p>
+              <div class="project-tech">
+                <span>HTML/CSS</span><span>JavaScript</span><span>PHP</span><span>SQL</span>
+              </div>
+              <div class="project-status status-done">Completed</div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="section certs">
+      <div class="container">
+        <div class="section-label reveal-up">
+          <span class="section-counter">03.5 —</span>
+          <h2 class="section-title">Certifi<span class="accent">cations</span></h2>
+        </div>
+        <div class="certs-grid reveal-up">
+          <div class="cert-card glass-card">
+            <div class="cert-logo"><i class="fa-solid fa-network-wired"></i></div>
+            <div class="cert-body">
+              <h4>Improving Deep Neural Networks</h4>
+              <p>Hyperparameter Tuning, Regularization &amp; Optimization</p>
+              <span class="cert-source">Coursera · DeepLearning.AI</span>
+            </div>
+          </div>
+          <div class="cert-card glass-card">
+            <div class="cert-logo"><i class="fa-solid fa-eye"></i></div>
+            <div class="cert-body">
+              <h4>Convolutional Neural Networks</h4>
+              <p>Computer vision fundamentals and deep CNN architectures</p>
+              <span class="cert-source">Coursera · DeepLearning.AI</span>
+            </div>
+          </div>
+          <div class="cert-card glass-card">
+            <div class="cert-logo"><i class="fa-solid fa-shield-halved"></i></div>
+            <div class="cert-body">
+              <h4>Security 101</h4>
+              <p>Fundamentals of ethical hacking and penetration testing</p>
+              <span class="cert-source">TryHackMe</span>
+            </div>
+          </div>
+          <div class="cert-card glass-card">
+            <div class="cert-logo"><i class="fa-solid fa-lock"></i></div>
+            <div class="cert-body">
+              <h4>Pre-Security Certificate</h4>
+              <p>Networking, web fundamentals, and Linux basics</p>
+              <span class="cert-source">TryHackMe</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <div class="section-label reveal-up">
+          <span class="section-counter">04 —</span>
+          <h2 class="section-title">Let's <span class="accent">Connect</span></h2>
+        </div>
+        <div class="contact-inner reveal-up">
+          <p class="contact-desc">
+            I'm always open to interesting projects, research collaborations, and opportunities
+            in AI/ML. Whether you have a question or just want to say hi — my inbox is open.
+          </p>
+          <a href="mailto:ghemabazamoncif@gmail.com" class="btn btn-primary btn-lg">
+            <i class="fa-solid fa-paper-plane"></i> Send a Message
+          </a>
+          <div class="social-links">
+            <a href="https://github.com/ghmoncif" target="_blank" rel="noopener" class="social-btn glass-card">
+              <i class="fa-brands fa-github"></i>
+              <span>ghmoncif</span>
+            </a>
+            <a href="mailto:ghemabazamoncif@gmail.com" class="social-btn glass-card">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Gmail</span>
+            </a>
+            <a href="mailto:moncif.ghembaza@ensia.edu.dz" class="social-btn glass-card">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>ENSIA Mail</span>
+            </a>
+            <a href="tel:+213563497405" class="social-btn glass-card">
+              <i class="fa-solid fa-phone"></i>
+              <span>+213 563 497 405</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span class="footer-logo"><span class="logo-bracket">&lt;</span>MG<span class="logo-bracket">/&gt;</span></span>
+      <p>Designed &amp; built by Moncif Ghembaza · <span id="year"></span></p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
